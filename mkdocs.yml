@@ -1,0 +1,64 @@
+site_name: dv-interfaces
+site_description: Unified Modbus TCP driver library for solar plant hardware used in Direktvermarktung
+site_url: "https://grrodre.github.io/dv-interfaces/"
+repo_url: "https://github.com/grrodre/dv-interfaces"
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - content.code.annotate
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/grrodre/dv-interfaces
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/dv-interfaces
+
+copyright: "<a href='https://grrodre.com'>Gregorio Rodrigo</a> · Making energy market data easier to work with · © 2026 — <a href='https://github.com/grrodre/dv-interfaces/blob/main/LICENSE'>MIT License</a>"
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.snippets
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Reading data: reading.md
+  - Controlling output: controlling.md
+  - Streaming & utilities: streaming.md
+  - Driver detection: detection.md
+  - Configuration: configuration.md
+  - Drivers reference: drivers.md
+  - Hardware testing: testing.md
+  - Changelog: changelog.md
