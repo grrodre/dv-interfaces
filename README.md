@@ -40,7 +40,7 @@ uvx --from dv-interfaces dv-detect 192.168.1.100
 uvx --from dv-interfaces dv-read solarlog 192.168.1.100
 ```
 
-![dv-read output](docs/imgs/screenshot_dv_read_solarlog.png)
+![dv-read output](https://raw.githubusercontent.com/grrodre/dv-interfaces/main/docs/imgs/screenshot_dv_read_solarlog.png)
 
 ## Quick example
 
@@ -113,7 +113,7 @@ uv run pytest -m hardware -v
 
 See the [hardware testing docs](https://grrodre.github.io/dv-interfaces/testing/) for the full variable reference.
 
-![Hardware tests](docs/imgs/screenshot_hardware_tests.png)
+![Hardware tests](https://raw.githubusercontent.com/grrodre/dv-interfaces/main/docs/imgs/screenshot_hardware_tests.png)
 
 ## License
 
